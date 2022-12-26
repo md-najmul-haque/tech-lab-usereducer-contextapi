@@ -12,19 +12,19 @@ const routes = createBrowserRouter([
         element: <Main />,
         children: [
             {
-                path: "Home",
+                path: "/",
                 element: <Home />,
             },
             {
-                path: "About",
+                path: "about",
                 element: <About />,
             },
             {
-                path: "Cart",
+                path: "cart",
                 element: <Cart />,
             },
             {
-                path: "TopRated",
+                path: "top-rated",
                 element: <TopRated />,
             },
         ],
